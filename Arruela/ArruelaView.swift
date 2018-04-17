@@ -74,7 +74,7 @@ class ArruelaView: UIView {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
             let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))
-            print("")
+            print(angle)
             // do something with your currentPoint
             teste.center = currentPoint
         }

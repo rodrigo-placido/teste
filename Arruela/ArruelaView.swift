@@ -9,7 +9,7 @@
 import UIKit
 
 class ArruelaView: UIView {
-
+    let teste = UIView()
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -36,6 +36,12 @@ class ArruelaView: UIView {
         shapeLayer.lineWidth = 3.0
         
         self.layer.addSublayer(shapeLayer)
+        
+       teste.frame = CGRect(x: 0.0, y: 0.0, width: 20.0, height: 20.0)
+        teste.backgroundColor = UIColor.blue
+        teste.isUserInteractionEnabled = true
+        self.addSubview(teste)
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -49,6 +55,7 @@ class ArruelaView: UIView {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
             // do something with your currentPoint
+            teste.center = currentPoint
         }
     }
     

@@ -23,7 +23,7 @@ class ArruelaView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        let circlePath = UIBezierPath(arcCenter: CGPoint(x: 200,y: 200), radius: CGFloat(100), startAngle: CGFloat((Double.pi * 3)/4), endAngle:CGFloat(Double.pi / 4), clockwise: false)
+        let circlePath = UIBezierPath(arcCenter: CGPoint(x: 200,y: 200), radius: CGFloat(100), startAngle: CGFloat(0), endAngle:CGFloat(Double.pi * 2), clockwise: false)
         
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = circlePath.cgPath

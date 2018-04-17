@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         let circle = ArruelaView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
         self.view.addSubview(circle)
         
-        
     }
 
     override func didReceiveMemoryWarning() {

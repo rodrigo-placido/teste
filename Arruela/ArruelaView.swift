@@ -70,11 +70,15 @@ class ArruelaView: UIView {
         }
     }
     
+    private func radiansToDegrees(degrees:Float) -> Float{
+        return degrees * 180 / .pi
+    }
+    
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
-            let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))
-            print(angle)
+            let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))            
+            print(radiansToDegrees(degrees: angle))
             // do something with your currentPoint
             teste.center = currentPoint
         }

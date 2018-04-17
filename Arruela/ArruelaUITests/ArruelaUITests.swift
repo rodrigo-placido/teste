@@ -2,8 +2,8 @@
 //  ArruelaUITests.swift
 //  ArruelaUITests
 //
-//  Created by Rodrigo Goncalez on 09/04/2018.
-//  Copyright © 2018 SegDig. All rights reserved.
+//  Created by viniciusmo on 4/17/18.
+//  Copyright © 2018 Arruela. All rights reserved.
 //
 
 import XCTest

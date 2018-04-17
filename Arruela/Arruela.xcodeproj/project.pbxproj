@@ -3,68 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B13B342207BA3D600EAA318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B13B341207BA3D600EAA318 /* AppDelegate.swift */; };
-		5B13B344207BA3D600EAA318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B13B343207BA3D600EAA318 /* ViewController.swift */; };
-		5B13B347207BA3D600EAA318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B13B345207BA3D600EAA318 /* Main.storyboard */; };
-		5B13B349207BA3D800EAA318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B13B348207BA3D800EAA318 /* Assets.xcassets */; };
-		5B13B34C207BA3D800EAA318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B13B34A207BA3D800EAA318 /* LaunchScreen.storyboard */; };
-		5B13B357207BA3D800EAA318 /* ArruelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B13B356207BA3D800EAA318 /* ArruelaTests.swift */; };
-		5B13B362207BA3D800EAA318 /* ArruelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B13B361207BA3D800EAA318 /* ArruelaUITests.swift */; };
+		4CABDF6C2086617C00F516F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CABDF6B2086617C00F516F8 /* AppDelegate.swift */; };
+		4CABDF6E2086617C00F516F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CABDF6D2086617C00F516F8 /* ViewController.swift */; };
+		4CABDF712086617C00F516F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CABDF6F2086617C00F516F8 /* Main.storyboard */; };
+		4CABDF732086617C00F516F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CABDF722086617C00F516F8 /* Assets.xcassets */; };
+		4CABDF762086617C00F516F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CABDF742086617C00F516F8 /* LaunchScreen.storyboard */; };
+		4CABDF812086617C00F516F8 /* ArruelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CABDF802086617C00F516F8 /* ArruelaTests.swift */; };
+		4CABDF8C2086617C00F516F8 /* ArruelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CABDF8B2086617C00F516F8 /* ArruelaUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B13B353207BA3D800EAA318 /* PBXContainerItemProxy */ = {
+		4CABDF7D2086617C00F516F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B13B336207BA3D600EAA318 /* Project object */;
+			containerPortal = 4CABDF602086617C00F516F8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B13B33D207BA3D600EAA318;
+			remoteGlobalIDString = 4CABDF672086617C00F516F8;
 			remoteInfo = Arruela;
 		};
-		5B13B35E207BA3D800EAA318 /* PBXContainerItemProxy */ = {
+		4CABDF882086617C00F516F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B13B336207BA3D600EAA318 /* Project object */;
+			containerPortal = 4CABDF602086617C00F516F8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B13B33D207BA3D600EAA318;
+			remoteGlobalIDString = 4CABDF672086617C00F516F8;
 			remoteInfo = Arruela;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B13B33E207BA3D600EAA318 /* Arruela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arruela.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B13B341207BA3D600EAA318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B13B343207BA3D600EAA318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B13B346207BA3D600EAA318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B13B348207BA3D800EAA318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B13B34B207BA3D800EAA318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5B13B34D207BA3D800EAA318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B13B352207BA3D800EAA318 /* ArruelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArruelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B13B356207BA3D800EAA318 /* ArruelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArruelaTests.swift; sourceTree = "<group>"; };
-		5B13B358207BA3D800EAA318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B13B35D207BA3D800EAA318 /* ArruelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArruelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B13B361207BA3D800EAA318 /* ArruelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArruelaUITests.swift; sourceTree = "<group>"; };
-		5B13B363207BA3D800EAA318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CABDF682086617C00F516F8 /* Arruela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arruela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CABDF6B2086617C00F516F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CABDF6D2086617C00F516F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CABDF702086617C00F516F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CABDF722086617C00F516F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CABDF752086617C00F516F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CABDF772086617C00F516F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CABDF7C2086617C00F516F8 /* ArruelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArruelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CABDF802086617C00F516F8 /* ArruelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArruelaTests.swift; sourceTree = "<group>"; };
+		4CABDF822086617C00F516F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CABDF872086617C00F516F8 /* ArruelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArruelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CABDF8B2086617C00F516F8 /* ArruelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArruelaUITests.swift; sourceTree = "<group>"; };
+		4CABDF8D2086617C00F516F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B13B33B207BA3D600EAA318 /* Frameworks */ = {
+		4CABDF652086617C00F516F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B13B34F207BA3D800EAA318 /* Frameworks */ = {
+		4CABDF792086617C00F516F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B13B35A207BA3D800EAA318 /* Frameworks */ = {
+		4CABDF842086617C00F516F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B13B335207BA3D600EAA318 = {
+		4CABDF5F2086617C00F516F8 = {
 			isa = PBXGroup;
 			children = (
-				5B13B340207BA3D600EAA318 /* Arruela */,
-				5B13B355207BA3D800EAA318 /* ArruelaTests */,
-				5B13B360207BA3D800EAA318 /* ArruelaUITests */,
-				5B13B33F207BA3D600EAA318 /* Products */,
+				4CABDF6A2086617C00F516F8 /* Arruela */,
+				4CABDF7F2086617C00F516F8 /* ArruelaTests */,
+				4CABDF8A2086617C00F516F8 /* ArruelaUITests */,
+				4CABDF692086617C00F516F8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5B13B33F207BA3D600EAA318 /* Products */ = {
+		4CABDF692086617C00F516F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B13B33E207BA3D600EAA318 /* Arruela.app */,
-				5B13B352207BA3D800EAA318 /* ArruelaTests.xctest */,
-				5B13B35D207BA3D800EAA318 /* ArruelaUITests.xctest */,
+				4CABDF682086617C00F516F8 /* Arruela.app */,
+				4CABDF7C2086617C00F516F8 /* ArruelaTests.xctest */,
+				4CABDF872086617C00F516F8 /* ArruelaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B13B340207BA3D600EAA318 /* Arruela */ = {
+		4CABDF6A2086617C00F516F8 /* Arruela */ = {
 			isa = PBXGroup;
 			children = (
-				5B13B341207BA3D600EAA318 /* AppDelegate.swift */,
-				5B13B343207BA3D600EAA318 /* ViewController.swift */,
-				5B13B345207BA3D600EAA318 /* Main.storyboard */,
-				5B13B348207BA3D800EAA318 /* Assets.xcassets */,
-				5B13B34A207BA3D800EAA318 /* LaunchScreen.storyboard */,
-				5B13B34D207BA3D800EAA318 /* Info.plist */,
+				4CABDF6B2086617C00F516F8 /* AppDelegate.swift */,
+				4CABDF6D2086617C00F516F8 /* ViewController.swift */,
+				4CABDF6F2086617C00F516F8 /* Main.storyboard */,
+				4CABDF722086617C00F516F8 /* Assets.xcassets */,
+				4CABDF742086617C00F516F8 /* LaunchScreen.storyboard */,
+				4CABDF772086617C00F516F8 /* Info.plist */,
 			);
 			path = Arruela;
 			sourceTree = "<group>";
 		};
-		5B13B355207BA3D800EAA318 /* ArruelaTests */ = {
+		4CABDF7F2086617C00F516F8 /* ArruelaTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B13B356207BA3D800EAA318 /* ArruelaTests.swift */,
-				5B13B358207BA3D800EAA318 /* Info.plist */,
+				4CABDF802086617C00F516F8 /* ArruelaTests.swift */,
+				4CABDF822086617C00F516F8 /* Info.plist */,
 			);
 			path = ArruelaTests;
 			sourceTree = "<group>";
 		};
-		5B13B360207BA3D800EAA318 /* ArruelaUITests */ = {
+		4CABDF8A2086617C00F516F8 /* ArruelaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5B13B361207BA3D800EAA318 /* ArruelaUITests.swift */,
-				5B13B363207BA3D800EAA318 /* Info.plist */,
+				4CABDF8B2086617C00F516F8 /* ArruelaUITests.swift */,
+				4CABDF8D2086617C00F516F8 /* Info.plist */,
 			);
 			path = ArruelaUITests;
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B13B33D207BA3D600EAA318 /* Arruela */ = {
+		4CABDF672086617C00F516F8 /* Arruela */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B13B366207BA3D800EAA318 /* Build configuration list for PBXNativeTarget "Arruela" */;
+			buildConfigurationList = 4CABDF902086617C00F516F8 /* Build configuration list for PBXNativeTarget "Arruela" */;
 			buildPhases = (
-				5B13B33A207BA3D600EAA318 /* Sources */,
-				5B13B33B207BA3D600EAA318 /* Frameworks */,
-				5B13B33C207BA3D600EAA318 /* Resources */,
+				4CABDF642086617C00F516F8 /* Sources */,
+				4CABDF652086617C00F516F8 /* Frameworks */,
+				4CABDF662086617C00F516F8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,107 +142,110 @@
 			);
 			name = Arruela;
 			productName = Arruela;
-			productReference = 5B13B33E207BA3D600EAA318 /* Arruela.app */;
+			productReference = 4CABDF682086617C00F516F8 /* Arruela.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B13B351207BA3D800EAA318 /* ArruelaTests */ = {
+		4CABDF7B2086617C00F516F8 /* ArruelaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B13B369207BA3D800EAA318 /* Build configuration list for PBXNativeTarget "ArruelaTests" */;
+			buildConfigurationList = 4CABDF932086617C00F516F8 /* Build configuration list for PBXNativeTarget "ArruelaTests" */;
 			buildPhases = (
-				5B13B34E207BA3D800EAA318 /* Sources */,
-				5B13B34F207BA3D800EAA318 /* Frameworks */,
-				5B13B350207BA3D800EAA318 /* Resources */,
+				4CABDF782086617C00F516F8 /* Sources */,
+				4CABDF792086617C00F516F8 /* Frameworks */,
+				4CABDF7A2086617C00F516F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B13B354207BA3D800EAA318 /* PBXTargetDependency */,
+				4CABDF7E2086617C00F516F8 /* PBXTargetDependency */,
 			);
 			name = ArruelaTests;
 			productName = ArruelaTests;
-			productReference = 5B13B352207BA3D800EAA318 /* ArruelaTests.xctest */;
+			productReference = 4CABDF7C2086617C00F516F8 /* ArruelaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5B13B35C207BA3D800EAA318 /* ArruelaUITests */ = {
+		4CABDF862086617C00F516F8 /* ArruelaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B13B36C207BA3D800EAA318 /* Build configuration list for PBXNativeTarget "ArruelaUITests" */;
+			buildConfigurationList = 4CABDF962086617C00F516F8 /* Build configuration list for PBXNativeTarget "ArruelaUITests" */;
 			buildPhases = (
-				5B13B359207BA3D800EAA318 /* Sources */,
-				5B13B35A207BA3D800EAA318 /* Frameworks */,
-				5B13B35B207BA3D800EAA318 /* Resources */,
+				4CABDF832086617C00F516F8 /* Sources */,
+				4CABDF842086617C00F516F8 /* Frameworks */,
+				4CABDF852086617C00F516F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B13B35F207BA3D800EAA318 /* PBXTargetDependency */,
+				4CABDF892086617C00F516F8 /* PBXTargetDependency */,
 			);
 			name = ArruelaUITests;
 			productName = ArruelaUITests;
-			productReference = 5B13B35D207BA3D800EAA318 /* ArruelaUITests.xctest */;
+			productReference = 4CABDF872086617C00F516F8 /* ArruelaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B13B336207BA3D600EAA318 /* Project object */ = {
+		4CABDF602086617C00F516F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = SegDig;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Arruela;
 				TargetAttributes = {
-					5B13B33D207BA3D600EAA318 = {
-						CreatedOnToolsVersion = 9.3;
+					4CABDF672086617C00F516F8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 					};
-					5B13B351207BA3D800EAA318 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 5B13B33D207BA3D600EAA318;
+					4CABDF7B2086617C00F516F8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CABDF672086617C00F516F8;
 					};
-					5B13B35C207BA3D800EAA318 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 5B13B33D207BA3D600EAA318;
+					4CABDF862086617C00F516F8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CABDF672086617C00F516F8;
 					};
 				};
 			};
-			buildConfigurationList = 5B13B339207BA3D600EAA318 /* Build configuration list for PBXProject "Arruela" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 4CABDF632086617C00F516F8 /* Build configuration list for PBXProject "Arruela" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5B13B335207BA3D600EAA318;
-			productRefGroup = 5B13B33F207BA3D600EAA318 /* Products */;
+			mainGroup = 4CABDF5F2086617C00F516F8;
+			productRefGroup = 4CABDF692086617C00F516F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B13B33D207BA3D600EAA318 /* Arruela */,
-				5B13B351207BA3D800EAA318 /* ArruelaTests */,
-				5B13B35C207BA3D800EAA318 /* ArruelaUITests */,
+				4CABDF672086617C00F516F8 /* Arruela */,
+				4CABDF7B2086617C00F516F8 /* ArruelaTests */,
+				4CABDF862086617C00F516F8 /* ArruelaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B13B33C207BA3D600EAA318 /* Resources */ = {
+		4CABDF662086617C00F516F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B13B34C207BA3D800EAA318 /* LaunchScreen.storyboard in Resources */,
-				5B13B349207BA3D800EAA318 /* Assets.xcassets in Resources */,
-				5B13B347207BA3D600EAA318 /* Main.storyboard in Resources */,
+				4CABDF762086617C00F516F8 /* LaunchScreen.storyboard in Resources */,
+				4CABDF732086617C00F516F8 /* Assets.xcassets in Resources */,
+				4CABDF712086617C00F516F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B13B350207BA3D800EAA318 /* Resources */ = {
+		4CABDF7A2086617C00F516F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B13B35B207BA3D800EAA318 /* Resources */ = {
+		4CABDF852086617C00F516F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +255,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B13B33A207BA3D600EAA318 /* Sources */ = {
+		4CABDF642086617C00F516F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B13B344207BA3D600EAA318 /* ViewController.swift in Sources */,
-				5B13B342207BA3D600EAA318 /* AppDelegate.swift in Sources */,
+				4CABDF6E2086617C00F516F8 /* ViewController.swift in Sources */,
+				4CABDF6C2086617C00F516F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B13B34E207BA3D800EAA318 /* Sources */ = {
+		4CABDF782086617C00F516F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B13B357207BA3D800EAA318 /* ArruelaTests.swift in Sources */,
+				4CABDF812086617C00F516F8 /* ArruelaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B13B359207BA3D800EAA318 /* Sources */ = {
+		4CABDF832086617C00F516F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B13B362207BA3D800EAA318 /* ArruelaUITests.swift in Sources */,
+				4CABDF8C2086617C00F516F8 /* ArruelaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B13B354207BA3D800EAA318 /* PBXTargetDependency */ = {
+		4CABDF7E2086617C00F516F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B13B33D207BA3D600EAA318 /* Arruela */;
-			targetProxy = 5B13B353207BA3D800EAA318 /* PBXContainerItemProxy */;
+			target = 4CABDF672086617C00F516F8 /* Arruela */;
+			targetProxy = 4CABDF7D2086617C00F516F8 /* PBXContainerItemProxy */;
 		};
-		5B13B35F207BA3D800EAA318 /* PBXTargetDependency */ = {
+		4CABDF892086617C00F516F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B13B33D207BA3D600EAA318 /* Arruela */;
-			targetProxy = 5B13B35E207BA3D800EAA318 /* PBXContainerItemProxy */;
+			target = 4CABDF672086617C00F516F8 /* Arruela */;
+			targetProxy = 4CABDF882086617C00F516F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B13B345207BA3D600EAA318 /* Main.storyboard */ = {
+		4CABDF6F2086617C00F516F8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B13B346207BA3D600EAA318 /* Base */,
+				4CABDF702086617C00F516F8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5B13B34A207BA3D800EAA318 /* LaunchScreen.storyboard */ = {
+		4CABDF742086617C00F516F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B13B34B207BA3D800EAA318 /* Base */,
+				4CABDF752086617C00F516F8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5B13B364207BA3D800EAA318 /* Debug */ = {
+		4CABDF8E2086617C00F516F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,12 +325,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -335,7 +336,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -363,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		5B13B365207BA3D800EAA318 /* Release */ = {
+		4CABDF8F2086617C00F516F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,12 +382,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -395,7 +393,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -417,62 +414,54 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5B13B367207BA3D800EAA318 /* Debug */ = {
+		4CABDF912086617C00F516F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL78JW3SBQ;
 				INFOPLIST_FILE = Arruela/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.segdig.Arruela;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arruela.Arruela;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5B13B368207BA3D800EAA318 /* Release */ = {
+		4CABDF922086617C00F516F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL78JW3SBQ;
 				INFOPLIST_FILE = Arruela/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.segdig.Arruela;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arruela.Arruela;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5B13B36A207BA3D800EAA318 /* Debug */ = {
+		4CABDF942086617C00F516F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL78JW3SBQ;
 				INFOPLIST_FILE = ArruelaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.segdig.ArruelaTests;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arruela.ArruelaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,19 +469,16 @@
 			};
 			name = Debug;
 		};
-		5B13B36B207BA3D800EAA318 /* Release */ = {
+		4CABDF952086617C00F516F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL78JW3SBQ;
 				INFOPLIST_FILE = ArruelaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.segdig.ArruelaTests;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arruela.ArruelaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,18 +486,15 @@
 			};
 			name = Release;
 		};
-		5B13B36D207BA3D800EAA318 /* Debug */ = {
+		4CABDF972086617C00F516F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL78JW3SBQ;
 				INFOPLIST_FILE = ArruelaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.segdig.ArruelaUITests;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arruela.ArruelaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -519,18 +502,15 @@
 			};
 			name = Debug;
 		};
-		5B13B36E207BA3D800EAA318 /* Release */ = {
+		4CABDF982086617C00F516F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL78JW3SBQ;
 				INFOPLIST_FILE = ArruelaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.segdig.ArruelaUITests;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arruela.ArruelaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,43 +521,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B13B339207BA3D600EAA318 /* Build configuration list for PBXProject "Arruela" */ = {
+		4CABDF632086617C00F516F8 /* Build configuration list for PBXProject "Arruela" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B13B364207BA3D800EAA318 /* Debug */,
-				5B13B365207BA3D800EAA318 /* Release */,
+				4CABDF8E2086617C00F516F8 /* Debug */,
+				4CABDF8F2086617C00F516F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B13B366207BA3D800EAA318 /* Build configuration list for PBXNativeTarget "Arruela" */ = {
+		4CABDF902086617C00F516F8 /* Build configuration list for PBXNativeTarget "Arruela" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B13B367207BA3D800EAA318 /* Debug */,
-				5B13B368207BA3D800EAA318 /* Release */,
+				4CABDF912086617C00F516F8 /* Debug */,
+				4CABDF922086617C00F516F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B13B369207BA3D800EAA318 /* Build configuration list for PBXNativeTarget "ArruelaTests" */ = {
+		4CABDF932086617C00F516F8 /* Build configuration list for PBXNativeTarget "ArruelaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B13B36A207BA3D800EAA318 /* Debug */,
-				5B13B36B207BA3D800EAA318 /* Release */,
+				4CABDF942086617C00F516F8 /* Debug */,
+				4CABDF952086617C00F516F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B13B36C207BA3D800EAA318 /* Build configuration list for PBXNativeTarget "ArruelaUITests" */ = {
+		4CABDF962086617C00F516F8 /* Build configuration list for PBXNativeTarget "ArruelaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B13B36D207BA3D800EAA318 /* Debug */,
-				5B13B36E207BA3D800EAA318 /* Release */,
+				4CABDF972086617C00F516F8 /* Debug */,
+				4CABDF982086617C00F516F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5B13B336207BA3D600EAA318 /* Project object */;
+	rootObject = 4CABDF602086617C00F516F8 /* Project object */;
 }

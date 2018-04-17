@@ -25,7 +25,7 @@ class ArruelaView: UIView {
         super.init(frame: frame)
         self.backgroundColor = UIColor.gray
         self.clipsToBounds = true
-        let circlePath = UIBezierPath(arcCenter: CGPoint(x: 200,y: 200), radius: CGFloat(100), startAngle: CGFloat(0), endAngle:CGFloat(Double.pi * 2), clockwise: false)
+        let circlePath = UIBezierPath(arcCenter: CGPoint(x: 150,y: 150), radius: CGFloat(100), startAngle: CGFloat(0), endAngle:CGFloat(Double.pi * 2), clockwise: false)
         
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = circlePath.cgPath

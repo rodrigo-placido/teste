@@ -77,10 +77,16 @@ class ArruelaView: UIView {
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
-            let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))            
+            let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))
             print(radiansToDegrees(degrees: angle))
             // do something with your currentPoint
-            teste.center = currentPoint
+            
+            let thumbX = Double((150 + 100 * cos(angle)))
+            let thumbY = Double((150 - 100 * sin(angle)))
+            let point = CGPoint(x: thumbX, y: thumbY)
+            
+
+            teste.center = point
         }
     }
     

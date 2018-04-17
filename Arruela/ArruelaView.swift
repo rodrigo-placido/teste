@@ -10,13 +10,9 @@ import UIKit
 
 class ArruelaView: UIView {
     let teste = UIView()
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+    let circleCenterX:Float = 150.0
+    let circleCenterY:Float = 150.0
+
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -46,6 +42,27 @@ class ArruelaView: UIView {
         
     }
     
+    func calculateAngle(touchX: Float, touchY: Float) -> Float {
+        let adjacent = touchX - circleCenterX
+        let hypotenuse = calculateHypotenuse(touchX: touchX , touchY: touchY)
+        let cosine = adjacent / hypotenuse
+        var angle = acos(cosine)
+        let distanceY = circleCenterY - touchY
+        if (distanceY < 0) {
+            angle = -angle
+        }
+        return angle
+    }
+    
+    func calculateHypotenuse(touchX: Float, touchY: Float) -> Float {
+        let distanceX = touchX - 150
+        let distanceY = 150 - touchY
+        let b = distanceX*distanceX
+        let c = distanceY*distanceY
+        let a = sqrt(b + c)
+        return a
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
@@ -56,6 +73,8 @@ class ArruelaView: UIView {
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
+            let angle = calculateAngle(touchX: currentPoint.x, touchY: currentPoint.y)
+            print("")
             // do something with your currentPoint
             teste.center = currentPoint
         }

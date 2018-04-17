@@ -70,15 +70,39 @@ class ArruelaView: UIView {
         }
     }
     
-    private func radiansToDegrees(degrees:Float) -> Float{
+    private func radiansToDegrees(degrees:Double) -> Double{
         return degrees * 180 / .pi
     }
     
+    func setPosition(position: Double) {
+        let angle = convertPositionToAngle(position: position)
+        let thumbX = Double((150 + 100 * cos(angle)))
+        let thumbY = Double((150 - 100 * sin(angle)))
+        let point = CGPoint(x: thumbX, y: thumbY)
+        
+        teste.center = point
+    }
+    
+    private func degressToRadians(radians:Double) -> Double{
+        return radians * .pi / 180
+    }
+
+    private func convertPositionToAngle(position: Double) -> Double{
+        let toAngle = (position * 360) / 100
+        var normalizedAngle = 0.0
+        if (90 > toAngle) {
+            normalizedAngle = 90.0 - toAngle
+        } else {
+            normalizedAngle = 360 - abs(toAngle - 90)
+        }
+        return degressToRadians(radians:normalizedAngle)
+    }
+
+   
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
             let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))
-            print(radiansToDegrees(degrees: angle))
             // do something with your currentPoint
             
             let thumbX = Double((150 + 100 * cos(angle)))

@@ -63,6 +63,7 @@ class ArruelaView: UIView {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
             // do something with your currentPoint
+            teste.center = currentPoint
         }
     }
 

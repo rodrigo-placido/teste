@@ -19,7 +19,7 @@ class ArruelaView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.gray
+       
         self.clipsToBounds = true
         let circlePath = UIBezierPath(arcCenter: CGPoint(x: 150,y: 150), radius: CGFloat(100), startAngle: CGFloat(degressToRadians(radians: -100)), endAngle:CGFloat(degressToRadians(radians: -80)), clockwise: false)
         
@@ -100,9 +100,9 @@ class ArruelaView: UIView {
     }
 
     private func convertPositionToAngle(position: Double) -> Double{
-        let toAngle = (position * 360) / 100
+        let toAngle = (position * 340) / 100
         var normalizedAngle = 0.0
-        if (90 > toAngle) {
+        if (80 > toAngle) {
             normalizedAngle = 90.0 - toAngle
         } else {
             normalizedAngle = 360 - abs(toAngle - 90)

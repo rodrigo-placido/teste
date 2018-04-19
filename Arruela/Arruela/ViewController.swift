@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let circle = ArruelaView(frame: CGRect(x: 10, y: 10, width: 300, height: 300))
-        circle.setPosition(position: 0)
+        circle.setPosition(position: 30)
         self.view.addSubview(circle)
         
     }

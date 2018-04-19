@@ -32,10 +32,22 @@ class ArruelaView: UIView {
         shapeLayer.strokeColor = UIColor.red.cgColor
         //you can change the line width
         shapeLayer.lineWidth = 3.0
-        
         self.layer.addSublayer(shapeLayer)
         
-       teste.frame = CGRect(x: 0.0, y: 0.0, width: 20.0, height: 20.0)
+        let color1 = UIColor(red: 225/255.0, green: 255/255.0, blue: 80/255.0, alpha: 1)
+        let color2 = UIColor(red: 0/255.0, green: 234/255.0, blue: 214/255.0, alpha: 1)
+        
+        let gradient = CAGradientLayer()
+        gradient.frame = frame
+        gradient.colors = [color1.cgColor,
+                           color2.cgColor]
+        gradient.startPoint = CGPoint(x: 0, y: 1)
+        gradient.endPoint = CGPoint(x: 1, y: 0)
+        gradient.mask = shapeLayer
+        
+        self.layer.addSublayer(gradient)
+        
+        teste.frame = CGRect(x: 0.0, y: 0.0, width: 20.0, height: 20.0)
         teste.backgroundColor = UIColor.blue
         teste.isUserInteractionEnabled = true
         self.addSubview(teste)
@@ -109,16 +121,29 @@ class ArruelaView: UIView {
             let thumbY = Double((150 - 100 * sin(angle)))
             let point = CGPoint(x: thumbX, y: thumbY)
             
-
-            teste.center = point
+            let degrees = self.radiansToDegrees(degrees: Double(angle))
+            let angleAux = (Int(degrees) + 360) % 360
+            if (!(angleAux < 100 && angleAux > 80)) {
+                teste.center = point
+            }
         }
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let currentPoint = touch.location(in: self)
+            let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))
             // do something with your currentPoint
-            teste.center = currentPoint
+            
+            let thumbX = Double((150 + 100 * cos(angle)))
+            let thumbY = Double((150 - 100 * sin(angle)))
+            let point = CGPoint(x: thumbX, y: thumbY)
+            
+            let degrees = self.radiansToDegrees(degrees: Double(angle))
+            let angleAux = (Int(degrees) + 360) % 360
+            if (!(angleAux < 100 && angleAux > 80)) {
+                teste.center = point
+            }
         }
     }
 

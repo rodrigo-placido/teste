@@ -132,7 +132,7 @@ class ArruelaView: UIView {
     }
     
     private func distanceBetweensTwoAnglesInClockWise(angle: Double) -> Double {
-        let degrees = radiansToDegrees(degrees: angle)
+        let degrees = angle
         var distance = Double()
         if (degrees > 80) {
             distance = 340.0 - (degrees - 80.0)

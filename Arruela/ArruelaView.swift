@@ -14,7 +14,7 @@ protocol ArruelaViewDelegate:class {
 
 class ArruelaView: UIView {
     let Knob = UIView()
-    
+    var thumb = UIView()
     var circleCenterX = Float()
     var circleCenterY = Float()
     var circleRadius = Float()
@@ -97,7 +97,7 @@ class ArruelaView: UIView {
         let thumbY = Double((Double(circleCenterY) - Double(circleRadius) * sin(angle)))
         let point = CGPoint(x: thumbX, y: thumbY)
         
-        let thumb = UIView()
+//        let thumb = UIView()
         thumb.frame = CGRect(x: 0.0, y: 0.0, width: 20.0, height: 20.0)
         thumb.backgroundColor = UIColor.gray
         thumb.isUserInteractionEnabled = true
@@ -135,7 +135,7 @@ class ArruelaView: UIView {
         let degrees = angle
         var distance = Double()
         if (degrees > 80) {
-            distance = 340.0 - (degrees - 80.0)
+            distance = 360.0 - (degrees - 80.0)
         } else {
             distance = 80.0 - degrees
         }
@@ -159,31 +159,41 @@ class ArruelaView: UIView {
             let point = CGPoint(x: thumbX, y: thumbY)
             
             let degrees = self.radiansToDegrees(degrees: Double(angle))
-            let angleAux = (Int(degrees) + 360) % 360
+            let angleAux = (Double(degrees) + 360).truncatingRemainder(dividingBy: 360.0)
             if (!(angleAux < 100 && angleAux > 80)) {
                 Knob.center = point
+                if (thumb.frame.intersects(Knob.frame)){
+                    print("sim")
+                } else {
+                    print("nao")
+                }
                 delegate?.getPosition(position: self.calculatePosition(degress: degrees))
             }
         }
     }
-    
-//    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        if let touch = touches.first {
-//            let currentPoint = touch.location(in: self)
-//            let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))
-//            // do something with your currentPoint
-//
-//            let thumbX = Double((150 + 100 * cos(angle)))
-//            let thumbY = Double((150 - 100 * sin(angle)))
-//            let point = CGPoint(x: thumbX, y: thumbY)
-//
-//            let degrees = self.radiansToDegrees(degrees: Double(angle))
-//            let angleAux = (Int(degrees) + 360) % 360
-//            if (!(angleAux < 100 && angleAux > 80)) {
-//                Knob.center = point
-//                delegate?.getPosition(position: self.calculatePosition(degress: degrees))
-//            }
-//        }
-//    }
 
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first {
+            let currentPoint = touch.location(in: self)
+            let angle = calculateAngle(touchX: Float(currentPoint.x), touchY: Float(currentPoint.y))
+            // do something with your currentPoint
+            
+            let thumbX = Double((circleCenterX + circleRadius * cos(angle)))
+            let thumbY = Double((circleCenterY - circleRadius * sin(angle)))
+            
+            let point = CGPoint(x: thumbX, y: thumbY)
+            
+            let degrees = self.radiansToDegrees(degrees: Double(angle))
+            let angleAux = (Double(degrees) + 360).truncatingRemainder(dividingBy: 360.0)
+            if (!(angleAux < 100 && angleAux > 80)) {
+                Knob.center = point
+                if (Knob.frame.intersects(thumb.frame)){
+                    print("sim")
+                } else {
+                    print("nao")
+                }
+                delegate?.getPosition(position: self.calculatePosition(degress: degrees))
+            }
+        }
+    }
 }
